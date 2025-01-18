@@ -18,7 +18,7 @@ Syllabus
 ### 2025 Cohort 
 
 * **Start**: 13 January 2025
-* Materials specific to the cohort: [cohorts/2025/](cohorts/2025/)
+* Materials specific to the cohort: [https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/cohorts/2025](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/cohorts/2025)
 
 ### Self-paced mode
 
@@ -39,7 +39,7 @@ We encourage [Learning in Public](learning-in-public.md)
 > In the course we still use the CSV files accessible [here](https://github.com/DataTalksClub/nyc-tlc-data).
 
 
-### [Module 1: Containerization and Infrastructure as Code](01-docker-terraform/)
+### <a  href="https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/01-docker-terraform">Module 1: Containerization and Infrastructure as Code</a>
 
 * Course overview
 * Introduction to GCP
@@ -49,20 +49,18 @@ We encourage [Learning in Public](learning-in-public.md)
 * Preparing the environment for the course
 * Homework
 
-[More details](01-docker-terraform/)
 
 
-### [Module 2: Workflow Orchestration](02-workflow-orchestration/)
+### <a href="https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/02-workflow-orchestration">Module 2: Workflow Orchestration</a>
 
 * Data Lake
 * Workflow orchestration
 * Workflow orchestration with Kestra
 * Homework
 
-[More details](02-workflow-orchestration/)
 
 
-### [Workshop 1: Data Ingestion](cohorts/2025/workshops/dlt.md)
+### <a href="https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/cohorts/2025/workshops/dlt.md">Workshop 1: Data Ingestion</a>
 
 * Reading from apis
 * Building scalable pipelines
@@ -71,10 +69,9 @@ We encourage [Learning in Public](learning-in-public.md)
 * Homework
 
 
-[More details](cohorts/2025/workshops/dlt.md)
 
 
-### [Module 3: Data Warehouse](03-data-warehouse/)
+### <a href="https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/03-data-warehouse">Module 3: Data Warehouse</a>
 
 * Data Warehouse
 * BigQuery
@@ -83,10 +80,9 @@ We encourage [Learning in Public](learning-in-public.md)
 * Internals of BigQuery
 * BigQuery Machine Learning
 
-[More details](03-data-warehouse/)
 
 
-### [Module 4: Analytics engineering](04-analytics-engineering/)
+### <a href="https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/04-analytics-engineering">Module 4: Analytics engineering</a>
 
 * Basics of analytics engineering
 * dbt (data build tool)
@@ -98,10 +94,9 @@ We encourage [Learning in Public](learning-in-public.md)
 * Visualizing the data with google data studio and metabase
 
 
-[More details](04-analytics-engineering/)
 
 
-### [Module 5: Batch processing](05-batch/)
+### <a href="https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/05-batch">Module 5: Batch processing</a>
 
 * Batch processing
 * What is Spark
@@ -109,27 +104,24 @@ We encourage [Learning in Public](learning-in-public.md)
 * Spark SQL
 * Internals: GroupBy and joins
 
-[More details](05-batch/)
 
-### [Module 6: Streaming](06-streaming/)
+### <a href="https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/06-streaming">Module 6: Streaming</a>
 
 * Introduction to Kafka
 * Schemas (avro)
 * Kafka Streams
 * Kafka Connect and KSQL
 
-[More details](06-streaming/)
 
 
 
-### [Project](projects)
+### <a href="https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/projects">Project</a>
 
 Putting everything we learned to practice
 
 * Week 1 and 2: working on your project
 * Week 3: reviewing your peers
 
-[More details](projects)
 
 ## Overview
 
