@@ -18,7 +18,6 @@ Syllabus
 ### 2025 Cohort 
 
 * **Start**: 13 January 2025
-* **Registration link**: https://airtable.com/shr6oVXeQvSI5HuWD
 * Materials specific to the cohort: [cohorts/2025/](cohorts/2025/)
 
 ### Self-paced mode
