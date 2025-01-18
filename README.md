@@ -33,7 +33,7 @@ can take the course at your own pace
 
 ## Syllabus
 
-We encourage [Learning in Public](learning-in-public.md)
+We encourage <a href="https://github.com/DataTalksClub/data-engineering-zoomcamp/blob/main/learning-in-public.md">Learning in Public</a>
 
 > **Note:** NYC TLC changed the format of the data we use to parquet.
 > In the course we still use the CSV files accessible [here](https://github.com/DataTalksClub/nyc-tlc-data).
