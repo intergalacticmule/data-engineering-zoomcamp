@@ -134,7 +134,7 @@ Putting everything we learned to practice
 
 ## Overview
 
-<img src="images/architecture/arch_v4_workshops.jpg" />
+<img src="images/arch_v4_workshops.jpg" />
 
 ### Prerequisites
 
