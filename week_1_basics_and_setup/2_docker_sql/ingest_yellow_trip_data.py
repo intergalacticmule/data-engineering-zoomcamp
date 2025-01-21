@@ -23,8 +23,7 @@ def create_connection_engine(params):
     return engine
 
 def create_iter_df(file):
-    df_iter = pd.read_csv(file, iterator=True, chunksize=100000, 
-    low_memory=False, dtype=dtypes, parse_dates=["tpep_pickup_datetime", "tpep_dropoff_datetime"])
+    df_iter = pd.read_csv(file, iterator=True, chunksize=100000, dtype=dtypes, parse_dates=["tpep_pickup_datetime", "tpep_dropoff_datetime"])
     return df_iter
 
 def ingest_data(df_iter, params, engine):
