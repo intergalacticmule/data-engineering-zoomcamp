@@ -16,7 +16,7 @@ OR t."DOLocationID" NOT IN (
 	FROM taxi_zone_lookup
 );
 
--- explicit outer join averages per vendor per day report
+-- implicit inner join averages per vendor per day report
 WITH base AS (
 	SELECT
 		CASE
@@ -54,7 +54,7 @@ FROM base
 GROUP BY "vendor", "day"
 ORDER BY "vendor", "day";
 
---explicit outer join averages per vendor per day report
+--explicit inner join averages per vendor per day report
 WITH base AS (
 	SELECT
 		CASE
@@ -73,7 +73,7 @@ WITH base AS (
 		END AS "fare_dollar_per_km"
 	FROM
 		yellow_taxi_data t
-	right JOIN taxi_zone_lookup zpu
+	JOIN taxi_zone_lookup zpu
 		ON t."PULocationID" = zpu."LocationID"
 	JOIN taxi_zone_lookup zdo
 		ON t."DOLocationID" = zdo."LocationID" )
