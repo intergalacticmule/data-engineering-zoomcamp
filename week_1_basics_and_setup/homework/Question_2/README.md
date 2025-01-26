@@ -20,8 +20,5 @@ __Username:__ _postgres_
 
 __Password__ _postgres_
 
-### Step 5: 
-Enjoy your new connection
-
 ### Final result:
 The correct answer is thus _db:5432_
