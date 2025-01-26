@@ -47,7 +47,7 @@ Create a new db connection with credentials:
 Prepare scripts ([ingest_zone_lookup.py](ingest_zone_lookup.py), [ingest_green_trip_data.py](ingest_green_trip_data.py))
 
 ### Step 6: 
-Create docker image for ingesting the zone lookup data with the following Dockerfile:
+Create Dockerfile for ingesting the zone lookup data:
 
 >FROM python:3.9  
 >
@@ -61,10 +61,8 @@ Create docker image for ingesting the zone lookup data with the following Docker
 >
 >ENTRYPOINT ["python", "ingest_zone_lookup.py"]
 
-
-
 ### Step 7:
-Build the image:
+Build the image from Dockerfile:
 
 >_docker build -t ingest_zone_lookup:v001 ._
 
@@ -74,7 +72,7 @@ Run the containerized script:
 >_docker run -it --network pg_network ingest_zone_lookup:v001 --username=root --password=root --host=pgdatabase --port=5432 --db=ny_taxi --table=taxi_zone_lookup --url="https://github.com/DataTalksClub/nyc-tlc-data/releases/download/misc/taxi_zone_lookup.csv"_
 
 ### Step 9: 
-Create docker image for ingesting the green taxi trip data for October 2019 with the following Dockerfile:
+Create Dockerfile for ingesting the green taxi trip data for October 2019:
 
 >FROM python:3.9 
 >
@@ -89,7 +87,7 @@ Create docker image for ingesting the green taxi trip data for October 2019 with
 >ENTRYPOINT ["python", "ingest_green_trip_data.py"]
 
 ### Step 10:
-Build the image:
+Build the image from Dockerfile:
 
 >_docker build -t ingest_green_trips:v001 ._
 
