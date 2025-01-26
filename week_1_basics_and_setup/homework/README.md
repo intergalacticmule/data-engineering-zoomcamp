@@ -1,9 +1,17 @@
-## Homework Week 1
+## Homework solutions - Week 1
 
-* [Question 1](Question_1)
-* [Question 2](Question_2)
-* [Question 3](Question_3)
-* [Question 4](Question_4)
-* [Question 5](Question_5)
-* [Question 6](Question_6)
-* [Question 7](Question_7)
+### Docker, SQL, and Terraform
+
+* Solution to [Question 1](Question_1)
+
+* Solution to [Question 2](Question_2)
+
+* Solution to [Question 3](Question_3)
+
+* Solution to [Question 4](Question_4)
+
+* Solution to [Question 5](Question_5)
+
+* Solution to [Question 6](Question_6)
+
+* Solution to [Question 7](Question_7)
