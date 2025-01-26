@@ -29,10 +29,10 @@ Start the containers
 
 >_docker compose up (-d)_
 
-## Step 3: 
+### Step 3: 
 Navigate to pgadmin Web UI via browser (localhost:8080)
 
-## Step 4: 
+### Step 4: 
 Create a new db connection with credentials:
 
 >__Host name/address:__ _pgdatabase_
