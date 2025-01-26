@@ -50,11 +50,17 @@ Prepare scripts ([ingest_zone_lookup.py](ingest_zone_lookup.py), [ingest_green_t
 Create docker image for ingesting the zone lookup data with the following Dockerfile:
 
 >FROM python:3.9  
-RUN apt-get install wget  
-RUN pip install pandas sqlalchemy psycopg2  
-WORKDIR /app  
-COPY ingest_zone_lookup.py ./  
-ENTRYPOINT ["python", "ingest_zone_lookup.py"]
+>
+>RUN apt-get install wget  
+>
+>RUN pip install pandas sqlalchemy psycopg2  
+>
+>WORKDIR /app  
+>
+>COPY ingest_zone_lookup.py ./  
+>
+>ENTRYPOINT ["python", "ingest_zone_lookup.py"]
+
 
 
 ### Step 7:
