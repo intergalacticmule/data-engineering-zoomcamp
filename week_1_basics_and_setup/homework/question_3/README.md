@@ -70,12 +70,17 @@ Run the containerized script:
 ### Step 9: 
 Create docker image for ingesting the green taxi trip data for October 2019 with the following Dockerfile:
 
->FROM python:3.9  
-RUN apt-get install wget  
-RUN pip install pandas sqlalchemy psycopg2  
-WORKDIR /app  
-COPY ingest_green_trip_data.py ./  
-ENTRYPOINT ["python", "ingest_green_trip_data.py"]
+>FROM python:3.9 
+>
+>RUN apt-get install wget 
+>
+>RUN pip install pandas sqlalchemy psycopg2 
+>
+>WORKDIR /app  
+>
+>COPY ingest_green_trip_data.py ./  
+>
+>ENTRYPOINT ["python", "ingest_green_trip_data.py"]
 
 ### Step 10:
 Build the image:
