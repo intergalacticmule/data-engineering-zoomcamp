@@ -10,6 +10,7 @@ volumes:
 
 services:
   postgres:
+    container_name: kestra_pg
     image: postgres
     volumes:
       - postgres-data:/var/lib/postgresql/data
@@ -24,6 +25,7 @@ services:
       retries: 10
 
   kestra:
+    container_name: kestra
     image: kestra/kestra:latest
     pull_policy: always
     # Note that this setup with a root user is intended for development purpose.
@@ -69,6 +71,7 @@ services:
         condition: service_started
 
   postgres_zoomcamp:
+    container_name: pg_zoomcamp
     image: postgres
     environment:
       POSTGRES_USER: kestra
@@ -83,6 +86,7 @@ services:
         condition: service_started
 
   pgadmin:
+    container_name: pgadmin
     image: dpage/pgadmin4
     environment:
       - PGADMIN_DEFAULT_EMAIL=admin@admin.com
@@ -90,7 +94,7 @@ services:
     ports:
       - "8082:80"
     volumes:
-      - pgadmin-data:/var/lib/postgresql/data
+      - pgadmin-data:/var/lib/pgadmin/data
     depends_on:
       postgres_zoomcamp:
         condition: service_started
