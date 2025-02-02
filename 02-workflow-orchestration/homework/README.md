@@ -13,5 +13,3 @@
 * Solution to [Question 5](question_5)
 
 * Solution to [Question 6](question_6)
-
-* Solution to [Question 7](question_7)
